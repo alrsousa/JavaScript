@@ -61,4 +61,4 @@ document.write("Bass Guitar: " + Bass_Guitar + "<br>");
 document.write("Drums: " + Drums + "<br>");
 
 document.write("<br>" + "<br>" + "<br>" +  "<b>" + "Expression result: ");
-document.write((3 + 10) + "<b>" + "<br>");
+document.write((3 + 10) + "</b>" + "<br>");
