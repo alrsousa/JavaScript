@@ -6,13 +6,6 @@ function Ride_Function() {
     document.getElementById("ride").innerHTML = Can_ride + " to ride.";  // Modify paragraph with result of operation
 }
 
-// Challenge based on Course Example
-function checkEligibility(){
-    var US, Age, Eligible;
-    Age = document.getElementById("Age").value;
-    Eligible = (Age>=18) ? "You are":"Sorry, you are not";
-    document.getElementById("vote").innerHTML = Eligible + " eligible to vote.";
-}
 
 // Use Object Constructors
 function Vehicle(Make, Model, Year, Color) { // Object Constructor Function
@@ -50,6 +43,16 @@ function register() {
     //  var var = 10;  // CAN NOT USE RESERVED WORD, var, AS AN IDENTIFIER
     //  document.getElementById("try").innerHTML = var;
 //}
+
+
+// Challenge based on Course Example
+function checkEligibility(){
+    var US, Age, Eligible;
+    Age = document.getElementById("Age").value;
+    Eligible = (Age>=18) ? "You are":"Sorry, you are not";
+    document.getElementById("vote").innerHTML = Eligible + " eligible to vote.";
+}
+
 
 // Object Constructor Challenge
 function pet(name, type, color) {
