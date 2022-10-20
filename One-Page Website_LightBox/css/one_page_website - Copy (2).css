@@ -1,0 +1,27 @@
+html {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
+}
+form input[type="text"] {
+    width: 80%;
+    margin: 10px 1em;
+    border-top: 4px solid #f50a0a;
+    border-right: 4px solid #f50a0a;
+    border-bottom: 4px solid #f50a0a;
+    border-left: 4px solid #f50a0a;
+    border-radius: 5px;
+}
+
+
+form textarea {
+
+    width: 80%;
+    margin: 10px 1em;
+    border-top: 4px solid #f50a0a;
+    border-right: 4px solid #f50a0a;
+    border-bottom: 4px solid #f50a0a;
+    border-left: 4px solid #f50a0a;
+    border-radius: 5px;
+}
+
+}

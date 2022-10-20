@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Ayrton Senna da Silva</title>
+		<link rel="stylesheet" href="./css/one_page_website.css">
+		<meta charset="utf-8">
+		<script src="js/main.js"></script>
+	</head>
+		<h1>Ayrton Senna</h1>
+	<body>
+		<p>This is an Ayrton Senna tribute page </p>
+			
+		<!-- Navigation menus -->
+		<div>
+			<div>
+				<ul>
+					<a href="#home" id="link"><li>HOME</li></a>
+					<a href="#photos" id="link"><li>PHOTOS</li></a>
+					<a href="#video" id="link"><li>VIDEO<li></a>
+					<a href="#email" id="link"><li>EMAIL<li></a>
+				</ul>
+			</div>
+		<div>
+
+		
+		<div id="home">
+			<div>
+				<div>
+					<span>
+						Ayrton Senna da Silva (Brazilian Portuguese: 21 March 1960 – 1 May 1994) was a Brazilian racing driver who won the Formula One World Drivers' Championship in 1988, 1990, and 1991. Senna is one of three Formula One drivers from Brazil to win the World Championship and won 41 Grands Prix and 65 pole positions, with the latter being the record until 2006. He died in an accident while leading the 1994 San Marino Grand Prix, driving for the Williams team.
+					</span>
+				</div>
+			</div>
+		</div>
+
+		
+
+		<section>
+			<div id="photos">
+				<h1>Historic Photos</hi>
+				<div>
+				
+						<div class="row">
+						      <div class="column">
+							<img src="./pics/Senna1.jpg" alt="Senna1"onclick="openModal();currentSlide(1)" class="hover-shadow">
+							<div class="column">
+								<img src="./pics/Senna2.jpg" alt="Senna2" onclick="openModal();currentSlide(2)" class="hover-shadow">
+							</div>
+							<div class="column">
+								<img src="./pics/Senna4Homenagem.jpeg" alt="Senna4" onclick="openModal();currentSlide(3)" class="hover-shadow">
+							</div>
+							<div class="column">
+								<img src="./pics/ayrtonsennatinaturner1993australia.jpg" alt="Homenagem" onclick="openModal();currentSlide(4)" class="hover-shadow">
+							</div>					
+						</div>
+
+
+
+<!-- The Modal/Lightbox  BEGIN -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="./pics/Senna1.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      <img src="./pics/Senna2.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="./pics/Senna4Homenagem.jpeg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+      <img src="./pics/ayrtonsennatinaturner1993australia.jpg" style="width:100%">
+    </div>
+
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+    <!-- Thumbnail image controls -->
+    <div class="column">
+      <img class="demo" src="./pics/Senna1.jpg" onclick="currentSlide(1)">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="./pics/Senna2.jpg" onclick="currentSlide(2)">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="./pics/Senna4Homenagem.jpeg" onclick="currentSlide(3)">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="./pics/ayrtonsennatinaturner1993australia.jpg" onclick="currentSlide(4)">
+    </div>
+  </div>
+</div>
+
+<!-- The Modal/Lightbox  END -->
+
+
+
+
+
+
+				   </div>
+						
+	
+				</div>
+			</div>
+		</section>
+		
+     <section>
+		<div id="video">
+			<hi>VIDEO</h1>
+			<div>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/Zc6gQY-4g9w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		      </div>
+
+
+		</div>
+
+	</section>
+		
+
+		<section>
+			<div id="email">
+				<div>
+					<h1>Give us your Email</h1>
+					<div>
+						<p>
+							Please provide us with your contact info to receive updates
+						</p>
+						<div>
+							<form action="" method="post">
+								<input class="rsvp" type="text" value="First Name">
+								<input class="rsvp" type="text" value="Last Name">
+								<input class="rsvp" type="text" value="Email Address">
+								<input class="rsvp" type="text" value="Phone Number">
+							<!--	<input class="rsvp" type="text" value="Comments"> -->
+
+
+      						<!--	<textarea class="textarea"  type="text" rows="20" cols="60" name="comments" placeholder="Enter your comments"></textarea> -->
+
+								<textarea class="textarea"  rows="20" cols="60" placeholder="Enter your comments"></textarea>	
+								<div>
+									<input type="submit" value="Submit">
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		
+
+ 		<div class="form-spacer" align="right">
+			<label class="author"><b>Designed by André Sousa &nbsp;&copy; 2022<b></label> 
+		</div>
+
+
+
+	</body>
+</html>
+
+<!-- Andre Sousa 22 june 2022 -->
